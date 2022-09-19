@@ -26,15 +26,16 @@ const Hero = () => {
       className="bg-[url('https://cdn.pixabay.com/photo/2022/03/01/02/51/galaxy-7040416_960_720.png')]
         bg-no-repeat bg-cover"
     >
-      <div className="flex flex-col justify-center items-center mx-auto py-10">
+      <div className="flex flex-col justify-center items-center mx-auto py-2">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-white text-5xl font-bold text-center">
-            A.I Arts <br />
-            <span className="text-gradient">NFTs</span> Collection
+          <h1 className="text-red-700 text-5xl font-bold text-center">
+          <br />
+          
+            <span className="text-gradient">Crypto</span>Demons 
           </h1>
 
-          <p className="text-white font-semibold text-sm mt-3">
-            Mint and collect the hottest NFTs around.
+          <p className=" text-center text-white font-semibold text-sm mt-3">
+          A 5,555 high resolution Solana based next generation NFT collection.,<br/>Watch out and get one before it is too late! The CryptoDemons will be available soon! <br/>Expected launch is Q4 2022 - Q1 2023
           </p>
 
           <button
@@ -47,7 +48,7 @@ const Hero = () => {
           </button>
 
           <a
-            href="https://daltonic.github.io/"
+            href="https://portfolio-mujeebali.vercel.app/"
             className="flex flex-row justify-center space-x-2 items-center
             bg-[#000000ad] rounded-full my-4 pr-3 cursor-pointer"
           >
@@ -58,15 +59,11 @@ const Hero = () => {
             />
             <div className="flex flex-col font-semibold">
               <span className="text-white text-sm">0xf55...146a</span>
-              <span className="text-[#e32970] text-xs">Daltonic</span>
+              <span className="text-[#e32970] text-xs">Shah</span>
             </div>
           </a>
 
-          <p className="text-white text-sm font-medium text-center">
-            Gospel Darlington kick-started his journey as a software engineer in
-            2016. <br /> Over the years, he has grown full-blown skills in
-            JavaScript stacks such as <br /> React, ReactNative, VueJs, and now
-            blockchain.
+          <p className="text-white text-sm  justify-items-center font-medium text-center">
           </p>
 
           <ul className="flex flex-row justify-center space-x-2 items-center my-4">

@@ -1,4 +1,4 @@
-import ethlogo from '../assets/ethlogo.png'
+import ethlogo from '../assets/footer-logo.png.png'
 import { connectWallet } from '../Adulam'
 import { truncate, useGlobalState } from '../store'
 
@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <nav className="w-4/5 flex md:justify-center justify-between items-center py-4 mx-auto">
       <div className="flex flex-row justify-start items-center md:flex-[0.5] flex-initial">
-        <img className="w-8 cursor-pointer" src={ethlogo} alt="Adulam Logo" />
-        <span className="text-white text-2xl ml-2">Adulam</span>
+        <img className="w-44 cursor-pointer" src={ethlogo} alt="DemonCrypto" />
+        <span className="text-white text-2xl ml-2"></span>
       </div>
 
       <ul
@@ -17,10 +17,17 @@ const Header = () => {
         md:flex hidden list-none flex-row 
         justify-between items-center flex-initial"
       >
-        <li className="mx-4 cursor-pointer">Explore</li>
-        <li className="mx-4 cursor-pointer">Features</li>
-        <li className="mx-4 cursor-pointer">Community</li>
+        <li className="mx-2 cursor-pointer">Home</li>
+        <li className="mx-2 cursor-pointer">Roadmap</li>
+        <li className="mx-2 cursor-pointer">Mint</li>
+        <li className="mx-2 cursor-pointer">Merchandise</li>
+        <li className="mx-2 cursor-pointer">Awards</li>
+        <li className="mx-2 cursor-pointer">FAQ</li>
       </ul>
+   
+
+
+
 
       {connectedAccount ? (
         <button
