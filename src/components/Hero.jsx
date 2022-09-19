@@ -69,31 +69,31 @@ const Hero = () => {
           <ul className="flex flex-row justify-center space-x-2 items-center my-4">
             <a
               className="bg-white hover:scale-50 transition-all duration-75 delay-75 rounded-full mx-2"
-              href="https://github.com/Daltonic"
+              href="https://github.com/MUJEEBAli"
             >
               <img className="w-7 h-7" src={github} alt="Github" />
             </a>
             <a
               className="bg-white hover:scale-50 transition-all duration-75 delay-75 rounded-full mx-2"
-              href="https://www.linkedin.com/in/darlington-gospel-aa626b125"
+              href="www.linkedin.com/in/alimujeeb-dev"
             >
               <img className="w-7 h-7" src={linkedIn} alt="linkedIn" />
             </a>
             <a
               className="bg-white hover:scale-50 transition-all duration-75 delay-75 rounded-full mx-2"
-              href="https://fb.com/darlington.gospel01"
+              href="https://www.facebook.com/mujeebali.cs"
             >
               <img className="w-7 h-7" src={facebook} alt="facebook" />
             </a>
             <a
               className="bg-white hover:scale-50 transition-all duration-75 delay-75 rounded-full mx-2"
-              href="https://twitter.com/idaltonic"
+              href="https://twitter.com/mujeebalishah"
             >
               <img className="w-7 h-7" src={twitter} alt="twitter" />
             </a>
             <a
               className="bg-white hover:scale-50 transition-all duration-75 delay-75 rounded-full mx-2"
-              href="https://darlingtongospel.medium.com/"
+              href="https://portfolio-mujeebali.vercel.app/"
             >
               <img className="w-7 h-7" src={medium} alt="medium" />
             </a>
